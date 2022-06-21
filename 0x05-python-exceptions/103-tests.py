@@ -16,7 +16,7 @@ l = [b'Hello', b'World']
 lib.print_python_list(l)
 del l[1]
 lib.print_python_list(l)
-l = l + [4, 5, 6.0, (9, 8), [9, 8, 1024], b"Holberton", "Betty"]
+l = l + [4, 5, 6.0, (9, 8), [9, 8, 1024], b"School", "Betty"]
 lib.print_python_list(l)
 l = []
 lib.print_python_list(l)
@@ -29,7 +29,7 @@ l.append(4)
 lib.print_python_list(l)
 l.pop()
 lib.print_python_list(l)
-l = ["Holberton"]
+l = ["School"]
 lib.print_python_list(l)
 lib.print_python_bytes(l);
 f = 3.14
@@ -91,7 +91,7 @@ Element 5: list
 Element 6: bytes
 [.] bytes object info
   size: 9
-  trying string: Holberton
+  trying string: School
   first 10 bytes: 48 6f 6c 62 65 72 74 6f 6e 00
 Element 7: str
 [*] Python list info
